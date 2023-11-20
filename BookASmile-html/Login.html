@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\ac258\OneDrive\Documentos\TECNOLOGICO\SEMESTRE 7\ING SOFTWARE\BookASmile-html\css\styles_login.css">
+  <title>Login</title>
+  <link rel="website icon" type="png" href="C:\Users\ac258\OneDrive\Documentos\TECNOLOGICO\SEMESTRE 7\ING SOFTWARE\BookASmile-html\images\dientes.png" >
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form action="guardar_datos.php" method="POST">
+      <div class="form-group">
+        <label for="first_name">Nombre(s):</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Nombre(s)" required>
+      </div>
+      <div class="form-group">
+        <label for="last_name">Apellidos:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Apellidos" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Crea un usuario:</label>
+        <input type="text" id="username" name="username" placeholder="Usuario" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Fecha de Nacimiento:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">Confirmar Contraseña:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirmar Contraseña" required>
+      </div>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+</body>
+</html>
